@@ -1,0 +1,91 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family:'Open Sans';
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  font-size: 40px;
+  text-shadow: 0 4px 20px rgba(0,0,0,.8);
+}
+
+h2 {
+  color: white;
+  margin: 0;
+  font-size: 20px;
+  text-shadow: 0 4px 20px rgba(0,0,0,.8);
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  height: 40px;
+  font-size: 16px;
+  color: black;
+}
+
+input[type="submit"] {
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #FFC6E5;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+}
+
+.form-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.parallax-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-item {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 300px;
+  height: 300px;
+}
+
+.leaf {
+  width: 100%;
+  height: 100%;
+  background: url('file:///Users/Kepler/Documents/UX:UI/parallax-plants/img/parallax-asset-1.png') center center no-repeat;
+  background-size: contain;
+}
+
+
+
+
+
+
+/* Light greens: B6D4AA, 9CC099
+Dark greens: 0C3F33, 186750, 247552
+Pink: FFC6E5 */
